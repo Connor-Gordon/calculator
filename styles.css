@@ -1,0 +1,36 @@
+
+#container {
+	margin-left: 200px;
+	display: flex;
+	background-color: lightblue;
+	border: 1px solid gray;
+	width: 250px;
+	font-family: 'Helvetica', san serif;
+}
+
+label {
+	margin: 10px 0px;
+}
+
+
+
+.inputs {
+	display: flex;
+	flex-direction: column;
+	max-width: 150px;
+	margin: 20px;
+}
+
+
+.operations {
+	display: flex;
+	flex-direction: column;
+	margin: 30px;
+}
+
+button {
+	margin: 5px;
+	width: 40px;
+	height: 40px;
+	font-size: 30px;
+}
